@@ -88,7 +88,7 @@ Jupyter Notebook
 
 VsCode
 
-📁 *Project Structure*
+📁 Project Structure
 ├── data/                  # Raw and processed datasets
 ├── notebooks/            # Experiments and analysis
 ├── src/                  # (Optional) utility scripts
