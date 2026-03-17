@@ -1,12 +1,12 @@
-📌 Bankruptcy Prediction with Machine Learning
+📌 *Bankruptcy Prediction with Machine Learning*
 
 This project focuses on predicting corporate bankruptcy using machine learning models and financial ratio analysis. The goal is to identify financially distressed companies by leveraging historical financial data and advanced classification techniques.
 
-🔍 Project Overview
+🔍 *Project Overview*
 
 In this study, multiple bankruptcy datasets (e.g., Polish and Taiwanese datasets) were analyzed and combined to build robust predictive models. The project includes data preprocessing, feature engineering, model training, and performance evaluation.
 
-Key objectives:
+*Key objectives*:
 
 Detect companies at risk of bankruptcy
 
@@ -14,7 +14,7 @@ Compare different machine learning models
 
 Optimize classification performance using threshold tuning
 
-📊 Datasets
+📊 *Datasets*
 
 The project uses multiple real-world financial datasets:
 
@@ -24,11 +24,11 @@ Taiwan Bankruptcy Dataset
 
 These datasets contain financial ratios such as liquidity, profitability, and leverage indicators.
 
-⚙️ Methodology
+⚙️ *Methodology*
 
 The workflow of the project includes:
 
-Data Preprocessing
+*Data Preprocessing:*
 
 Handling missing values
 
@@ -36,13 +36,13 @@ Merging datasets
 
 Feature scaling
 
-Feature Engineering
+*Feature Engineering:*
 
 Financial ratio selection
 
 Data cleaning and transformation
 
-Modeling
+*Modeling:*
 
 CatBoost
 
@@ -52,7 +52,7 @@ XGBoost
 
 Random Forest
 
-Evaluation Metrics
+*Evaluation Metrics:*
 
 ROC-AUC
 
@@ -60,13 +60,13 @@ PR-AUC
 
 Precision, Recall, F1-score
 
-Threshold Optimization
+*Threshold Optimization:*
 
 Adjusting decision thresholds (e.g., 0.4 vs 0.5)
 
 Improving recall for bankruptcy class
 
-📈 Results
+📈 *Results*
 
 LightGBM achieved strong performance with high ROC-AUC and balanced precision-recall tradeoff
 
@@ -74,7 +74,7 @@ Threshold tuning significantly improved bankruptcy detection (recall)
 
 Ensemble-based models outperformed traditional approaches
 
-🛠️ Technologies Used
+🛠️ *Technologies Used*
 
 Python
 
@@ -86,13 +86,16 @@ CatBoost, LightGBM, XGBoost
 
 Jupyter Notebook
 
-📁 Project Structure
+VsCode
+
+📁 *Project Structure*
 ├── data/                  # Raw and processed datasets
 ├── notebooks/            # Experiments and analysis
 ├── src/                  # (Optional) utility scripts
 ├── README.md
 └── requirements.txt
-🎯 Key Contributions
+
+🎯 *Key Contributions*
 
 Multi-dataset bankruptcy prediction pipeline
 
@@ -101,11 +104,3 @@ Comparative analysis of ML models
 Threshold-based performance optimization
 
 End-to-end data science workflow
-
-🚀 Future Work
-
-Deep learning models
-
-Time-series based financial analysis
-
-Deployment as a decision support system
